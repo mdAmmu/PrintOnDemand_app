@@ -2,7 +2,7 @@
 import React from "react";
 import { useRouter } from "next/navigation";
 // import CustomizePage from "../customize/Page";
-import { FaShoppingCart } from "react-icons/fa";
+// import { FaShoppingCart } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -20,7 +20,7 @@ const HomePage = ({ router }: { router: any }) => {
         <div className="flex items-center gap-6">
           <a href="#" className="hover:text-blue-600">Shop</a>
           <a href="#" className="hover:text-blue-600">About</a>
-          <Link href="/cart_page"><FaShoppingCart /></Link>
+          {/* <Link href="/cart_page"><FaShoppingCart /></Link> */}
           {/* <button className="px-4 py-2 border rounded hover:bg-gray-100">Sign in</button>
           <button className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Register</button> */}
         </div>
